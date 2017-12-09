@@ -45,8 +45,11 @@ input,
 button,
 select,
 textarea {
-	font-family: 'Fira Sans', sans-serif;
 	transition: all ease-out 0.2s;
+}
+
+body, button, input, select, textarea {
+	font-family: 'PingFangSC', 'helvetica neue', 'hiragino sans gb', 'arial', 'microsoft yahei ui', 'microsoft yahei', 'simsun', 'sans-serif' !important;
 }
 
 a {
@@ -61,7 +64,7 @@ a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: inherit;
 	text-rendering: optimizeLegibility;
 	color: $color-black;
 }
